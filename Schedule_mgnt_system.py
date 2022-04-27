@@ -1,6 +1,10 @@
 import pandas as pd
 import os.path
 
+# This is an assignment I submitted for my internship interview test.
+
+# Interview was conducted around 6pm and I completed it by the end of the day. I had no knowledge about python libraries that were used so needed some 
+# time to design the implemenmtation.
 
 def reading(roomid):
     read_data = pd.read_csv(roomid.upper()+'.csv')
